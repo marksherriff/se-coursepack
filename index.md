@@ -3,4 +3,4 @@ layout: index
 published: true
 ---
 
-[SE Course Pack Description Goes Here]
+[SE Course Pack Description Goes Right Here]
