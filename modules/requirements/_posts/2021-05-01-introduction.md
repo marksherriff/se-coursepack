@@ -4,8 +4,4 @@ title: Introduction
 
 # Introduction to Requirements
 
-In this module, the learning objectives are
-
-* aslkdjfa
-* alsdjkf
-* wqoriewuq
+In this module, the learning objectives are:
