@@ -46,3 +46,7 @@ Get in the habit of using git and GitHub right now.  There is absolutely no excu
 ## Write Tests and Actually Run Them
 
 As much as it may pain you to "take the time to write tests," consider how much time you are saving by writing small tests as you go that you can run to verify your system at the push of a button instead of uncommenting all those ``println`` statements that you thought were such a good idea back when you were first writing the code.
+
+# In the Video
+
+Check out the video above for a more detailed discussion of how git and other source control systems work, including a demo!
