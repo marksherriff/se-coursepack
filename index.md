@@ -7,4 +7,4 @@ Welcome to "An Introduction to Software Engineering!"  This coursepack was creat
 
 __THIS SITE IS CURRENTLY UNDER CONSTRUCTION FOR FALL 2022.__
 
-The material in this coursepack comes from [CS 3240: Advanced Software Development Techniques](http://cs3240.cs.virginia.edu) offered by the [Department of Computer Science](https://engineering.virginia.edu/departments/computer-science) in the [School of Engineering and Applied Science](https://engineering.virginia.edu/) at the [University of Virginia](http://www.virginia.edu).
+The material in this coursepack comes from [CS 3240: Advanced Software Development Techniques](http://f22.cs3240.org) offered by the [Department of Computer Science](https://engineering.virginia.edu/departments/computer-science) in the [School of Engineering and Applied Science](https://engineering.virginia.edu/) at the [University of Virginia](http://www.virginia.edu).
