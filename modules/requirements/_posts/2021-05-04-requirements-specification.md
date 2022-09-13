@@ -24,7 +24,7 @@ A technique that is somewhat in between agile and plan-drive (and often used in 
 Related to user stories (and sometimes lumped in with them) are use cases and, by extension, UML (Unified Modeling Language) diagrams.  While user stories are generally single-sentence representations of a requirement, a use case with a UML diagram is a visual representation of a user interaction with a system.  It is not uncommon to see these techniques mixed together to create a requirements artifact that is not as overally detailed as an SRS, but more than a list of notes on a whiteboard.
 
 __Links__     
-* http://www.cs3240.org/materials/UseCaseRequirements.pdf
-* https://www.uml-diagrams.org/use-case-diagrams-examples.html
-* http://www.extremeprogramming.org/rules/userstories.html
-* https://www.mountaingoatsoftware.com/agile/user-stories
+* [http://www.cs3240.org/materials/UseCaseRequirements.pdf](http://www.cs3240.org/materials/UseCaseRequirements.pdf)
+* [https://www.uml-diagrams.org/use-case-diagrams-examples.html](https://www.uml-diagrams.org/use-case-diagrams-examples.html)
+* [http://www.extremeprogramming.org/rules/userstories.html](http://www.extremeprogramming.org/rules/userstories.html)
+* [https://www.mountaingoatsoftware.com/agile/user-stories](https://www.mountaingoatsoftware.com/agile/user-stories)
