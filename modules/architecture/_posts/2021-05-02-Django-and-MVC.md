@@ -21,7 +21,7 @@ That's because, when using Amazon before, your cart wasn't tied to any state of 
 
 Now compare this with older websites Collab and SIS. Both websites rely on "stateful" context connections:
 
-![img.png](images/statefulness.png)
+![img.png](img/arch/djano-mvc/statefulness.png)
 
 Here, you can see when we hover over a class, we see a function. This javascript function specifies argument `CLASSROSTER$1`, but that `$1` indicates (in the above example) the class at index 1 in the courses table. That means this function *only* works because of the context. So, if we were to open that roster, copy the web-url, closer our browser, and then re-open and paste, **it wouldn't take us to the same place**. That's because this website is relying on the *context* (or "state") the user is in. This contributes to several issues with Collab and SIS. Namely:
 
@@ -42,7 +42,7 @@ Now we're ready to talk about MVC. MVC (Model-view-controller) has become extrem
   * Handle any business logic
   * Send information to the view to be rendered
 
-![img.png](images/mvc-diagram.png)
+![img.png](img/arch/djano-mvc/mvc-diagram.png)
 
 This gives us the benefit of **separation of concerns**, and helps us to write reusable code.
 
