@@ -2,6 +2,9 @@
 title: Django and MVC
 ---
 
+__Slide Deck__   
+[Django and MVC](https://docs.google.com/presentation/d/1_gaSPHCczdsxXwmkhkYiWqZchTxHTzs-r6yyAR5Lznw/edit?usp=sharing)
+
 # Web applications vs. Desktop Applications
 
 Before we dive into Django and MVC, we need to first explain how web applications are fundamentally different from Desktop applications. In a desktop application, we typically run a program on one computer for one user, and when the user is done, they close the application. Data is often persisted ("saved") locally on the computer. In a very simple desktop application, there may be no user interaction at all beyond perhaps some command-line arguments. In that case, the program runs until it completes, and then terminates.
