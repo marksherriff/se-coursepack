@@ -4,7 +4,7 @@ title: Decomposition
 
 # Design Decomposition
 
-__Slide Deck__
+__Slide Deck__     
 [Design Decomposition](https://docs.google.com/presentation/d/1lctQhB-zKCbCSjNsSdN3aGvV2tsXfqJibiETjmuucXs/edit?usp=sharing)
 
 In this lecture, we will focus on decomposing our system into individual classes and functions.
