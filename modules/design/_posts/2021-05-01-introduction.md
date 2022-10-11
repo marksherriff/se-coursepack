@@ -4,10 +4,6 @@ title: Introduction
 
 # Introduction to Design
 
----
-Title: What is Design?
----
-
 > "... the greatest limitation in writing software is our ability to understand the system we are creating."
 >
 > - John Ousterhout, __A Philosophy of Software Design__, Chapter 1

@@ -9,10 +9,6 @@ __Slide Deck__
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/Q76mO3eI4qE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
-Title: Modularity
----
-
 # Modularity
 
 As we mentioned before, **modularity** refers to our desire to break up our big problem into smaller problems. We will look at two types of decomposition: functional and class decomposition.
@@ -70,7 +66,7 @@ We can decompose this step further. For example, consider Step 1. How do we get 
 
 In the same way, we can decompose our other two steps. We often visually represent this as a tree:
 
-![img](../images/modularity/functional_decomp.png)
+![img](/img/modularity/functional_decomp.png)
 
 This diagram can describe our functional decomposition. At the top, we have one overarching high-level behavior. We work in a *depth-first* way from left to right, so we first call **Get Divisor**. This sort of structure can help us design our functional decomposition.
 
@@ -294,7 +290,7 @@ We also have different levels of coupling like we did cohesion. As before, we wi
 - Control coupling
 - Stamp coupling
 - Data coupling  
-  **BEST**
+**BEST**
 
 
 ### Content Coupling

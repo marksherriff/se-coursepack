@@ -92,7 +92,7 @@ Note that we probably *should* decompose this further. For instance, it probably
 
 ## Class relationships:
 
-![img.png](uml_class_relationships.png)
+![img.png](/img/uml_class_relationships.png)
 
 There are 4 kinds of class relationships we will focus on.
 
