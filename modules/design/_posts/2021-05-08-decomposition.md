@@ -7,6 +7,10 @@ title: Decomposition
 __Slide Deck__     
 [Design Decomposition](https://docs.google.com/presentation/d/1lctQhB-zKCbCSjNsSdN3aGvV2tsXfqJibiETjmuucXs/edit?usp=sharing)
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/cv-aOsqaTeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CEJO1Ig8JaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In this lecture, we will focus on decomposing our system into individual classes and functions.
 
 In structured programming, such as languages like C and Javascript, we use Functional Decomposition, where we decompose high-level general functions into lower and lower level functions, each of which performing a more and more specific task. Typically, we think of our functions being executed like a depth-first search in this way.
