@@ -1,5 +1,5 @@
 ---
-title: Design patterns
+title: Design Patterns
 ---
 
 # Design Patterns
