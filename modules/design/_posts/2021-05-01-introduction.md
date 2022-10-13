@@ -51,26 +51,26 @@ On the other hand, if our software is single purpose, and expected to have a sho
 
 For example, in the Fall of 2022, CS 3140 used Collab, an open-sourced LMS (leaning management system). I give quizzes on the web-application, which students can take multiple times and get their highest score. If a student gets 80% or more of the answers on a quiz correct, I want to give them full credit. Collab lets me download an Excel file (specifically, .xls, or Microsoft Office 2003 and earlier) that contains all the students' quiz submissions. So in my program, I want to:
 
-1) Open and parse through a .xls file - the Student ID is in column 4, while their score is in column 8
-2) Find each student's maximum score submission
-3) If the student score is 8 out of 10 or above, give the student 100%
-4) Otherwise, give the students their score scaled to 8, so 6 correct answers is 75% instead of 60%
-5) Save all student scores to a .csv file format that can be uploaded to Collab's Gradebook, which required the student ID in column 1
+1. Open and parse through a .xls file - the Student ID is in column 4, while their score is in column 8
+2. Find each student's maximum score submission
+3. If the student score is 8 out of 10 or above, give the student 100%
+4. Otherwise, give the students their score scaled to 8, so 6 correct answers is 75% instead of 60%
+5. Save all student scores to a .csv file format that can be uploaded to Collab's Gradebook, which required the student ID in column 1
 
 A lot of the features here could change:
 
-1) The export format could change to .csv, .xlsx. .json, etc.
-2) The column numbers with the student ID and total score could change
-3) The identifier could change from the student ID to the student number
-4) I might change the score threshold from 80% to 90%
-5) Quizzes may have different numbers of questions in the future
-6) The upload format to Gradebook may change, or I may have to upload grades to a different system
+1. The export format could change to .csv, .xlsx. .json, etc.
+2. The column numbers with the student ID and total score could change
+3. The identifier could change from the student ID to the student number
+4. I might change the score threshold from 80% to 90%
+5. Quizzes may have different numbers of questions in the future
+6. The upload format to Gradebook may change, or I may have to upload grades to a different system
 
 There are dozens of additional changes that *could* occur that might affect my script. Did I account for them in my design, and plan my design to be receptive to that change? **No.** Why not?
 
-1) The entire program is relatively small, only about 100 line of code total.
-2) There are only two people who will use this script for the foreseeable future, and both of us are CS professors. As such, I don't need to worry about making the software "user-friendly" as I would with software I plan to release publicly.
-3) The course will no longer use Collab starting Fall 2023, and will instead use Canvas, a different LMS system that the University of Virginia is switching to. Thus, any software I write for Collab will be useless in a year anyway.
+1. The entire program is relatively small, only about 100 line of code total.
+2. There are only two people who will use this script for the foreseeable future, and both of us are CS professors. As such, I don't need to worry about making the software "user-friendly" as I would with software I plan to release publicly.
+3. The course will no longer use Collab starting Fall 2023, and will instead use Canvas, a different LMS system that the University of Virginia is switching to. Thus, any software I write for Collab will be useless in a year anyway.
 
 ## Agile Design
 
