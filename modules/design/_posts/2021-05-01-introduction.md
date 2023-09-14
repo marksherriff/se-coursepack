@@ -16,7 +16,7 @@ Design, in software, refers to the organization of our code, including classes, 
 
 Of course, the question of what is a "good" design doesn't have any obvious answer. In physical systems, such as bridges, home appliances, cars, etc., we often think about design related to "how long the system works before degrading." That is, the Golden Gate Bridge must be well-designed, because it's been opened for over 85 years now and still meeting its goal. A car is well-designed if it last 200k miles.
 
-And sure, these things have maintenance costs; the Golden Gate Bridge has had its deck replaced because of salt in the fog corroding the rebar, and I have had to change the oil and do significant transmission repair on my personal car. But ultimately, the goal of this maintainance is to ensure that **the produce operates the same as it did**
+And sure, these things have maintenance costs; the Golden Gate Bridge has had its deck replaced because of salt in the fog corroding the rebar, and I have had to change the oil and do significant transmission repair on my personal car. But ultimately, the goal of this maintenance is to ensure that **the produce operates the same as it did**
 
 ### Software changes
 
@@ -34,7 +34,7 @@ The difficulty is that as we add features to software, it becomes more complicat
 
 ## Planning for change
 
-Thus, the key to design is to plan for change. That can be anticipating what *could* change (even if we are not certain exactly what *will* change - and we never will be) and planning designs to allow that change. However, ultimately, some new change can and will catch us off guard. At that point, we want to compartmentalize individual aspects of our system as best as we can so that change is unlikely to propogate.
+Thus, the key to design is to plan for change. That can be anticipating what *could* change (even if we are not certain exactly what *will* change - and we never will be) and planning designs to allow that change. However, ultimately, some new change can and will catch us off guard. At that point, we want to compartmentalize individual aspects of our system as best as we can so that change is unlikely to propagate.
 
 ## A note on over-design
 

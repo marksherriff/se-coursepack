@@ -18,7 +18,7 @@ Consider a "student information system."  A "SIS," if you will, that is used by 
 * Students: enroll in classes, pay bills, check graduation requirements
 * Faculty: see class rolls, admit students off the wait list, see student records for advising
 * Registrar: create classes, assign classes to rooms, process graduation requests
-* Financial Services: issue invoices, process scholarsips
+* Financial Services: issue invoices, process scholarships
 * Board of Visitors: approves the purchase of the system
 
 And this is only a sample.  Trying to ascertain all the different needs for a software system can be a challenge.  That's where requirements elicitation (or analysis) comes in.  This is the process by which a requirements engineer gathers the info they need about a system and talks the stakeholders through their _actual_ needs.  (Remember: Solve the right problem!)

@@ -23,7 +23,7 @@ First, a brief example:
 > 
 > The client sits back and takes a deep breath.  "Well... it's a very nice chess game.  But I asked for checkers."
 
-Okay, I realize that this is a bit overdramatic.  But still, while you might not build _a completely different program_ than what the client wants, it is entirely possible to get some aspects wrong.  Perhaps you aren't familiar with their domain knowledge and you implemented something incorrectly because you simply didn't know that something wasn't allowed, like programming SIS to allow a student to take two classes at the same time.
+Okay, I realize that this is a bit over-dramatic.  But still, while you might not build _a completely different program_ than what the client wants, it is entirely possible to get some aspects wrong.  Perhaps you aren't familiar with their domain knowledge and you implemented something incorrectly because you simply didn't know that something wasn't allowed, like programming SIS to allow a student to take two classes at the same time.
 
 __Requirements engineering__ is the subfield of software engineering completely focused on making sure that we can turn the plain-language explanation of what a software need is into something that is actionable by a development team.  The process is typically broken into two broad categories:
 
@@ -54,7 +54,7 @@ So anything like the following for a to-do list app:
 
 ## Non-Functional Requirements
 
-A __non-fuctional requirement__ (or NFR for short) is a statement regarding an overall condition of the system and _is not_ directly tied to a single function or feature.  NFRs often fall under one of these categories:
+A __non-functional requirement__ (or NFR for short) is a statement regarding an overall condition of the system and _is not_ directly tied to a single function or feature.  NFRs often fall under one of these categories:
 
 * security
 * privacy 
@@ -66,6 +66,6 @@ A __non-fuctional requirement__ (or NFR for short) is a statement regarding an o
 
 No one feature in a system is responsible for it's security, for example.  It is an aspect of the system that has to be taken into consideration with every feature.  Thus there has to be some sort of centralized, concerted effort among all developers to ensure that NFRs are completed
 
-## Contraints
+## Constraints
 
 A __constraint__ is a limitation put on the "solution set" of possible systems that could be developed.  For example, a client may say that the software you build for them must run on iOS.  If this is the case, they have created an implementation limitation on all the possible ways that you could build something.  Another example could be that you have to utilize some particular API or third-party service due to contractual obligations.  These are all constraints and not functional or non-functional requirements.

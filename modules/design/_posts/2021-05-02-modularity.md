@@ -205,7 +205,7 @@ A module with only procedural coupling is supporting unrelated activities in whi
 ```java
 public class CourseRegistration {
     public StudentRecord getStudentRecord(Student student);
-    public List<Prequisite> getPreRequisites(Course course);
+    public List<Prerequisite> getPreRequisites(Course course);
     public boolean studentMeetsAllPrerequisites(Student student, List<Prerequisite> prerequisites);
     public boolean isCourseFull(Course course);
     public void addStudentToCourse(Student student, course course);
@@ -257,8 +257,8 @@ That said, when we need to enforce a specific sequence of events, sequential coh
 A module exhibits functional cohesion if it describes a single well-supported function. I.e., a something that only does on thing. It is certainly useful to have our functions themselves work this way. Many of our classes may work this way as well. For example:
 
 ```java
-public class PrequisiteChecker {
-    public boolean isPrequisiteMetByStudent(Prequisite prereq, Student student);
+public class PrerequisiteChecker {
+    public boolean isPrerequisiteMetByStudent(Prerequisite prereq, Student student);
 }
 ```
 
@@ -418,7 +418,7 @@ public class Employee {
 }
 ```
 
-This is very tightly coupled, because in order to use the function `getInfo` correctly, you **have** to understand it's interal structure and options. By contrast, simply having `getName()`, `getJobTitle()`, etc. as getting functions would be significantly better and simpler to understand. Thus, in this case, even though the input is a String, it still effectively a "flag" value that is only used by control flow.
+This is very tightly coupled, because in order to use the function `getInfo` correctly, you **have** to understand it's internal structure and options. By contrast, simply having `getName()`, `getJobTitle()`, etc. as getting functions would be significantly better and simpler to understand. Thus, in this case, even though the input is a String, it still effectively a "flag" value that is only used by control flow.
 
 Now, in some cases, it is not possible to completely avoid this type of coupling. However, we can isolate that control coupling to only a single method using a Factory Method Pattern, and use polymorphism to keep the interactions with the product class abstract and not reliant on the underlying class type.
 
@@ -457,7 +457,7 @@ Another reason boolean arguments are bad is that usage of functions with boolean
     }   
 ```
 
-A reason that a bad function is that any function using it must know the **intent** of the boolean variable used. In a vaccuum, a call to this function may look like `makeBurger(true)`. It's incredibly unclear what the purpose of `true` is, here. Instead, we can break this up into two separate functions:
+A reason that a bad function is that any function using it must know the **intent** of the boolean variable used. In a vacuum, a call to this function may look like `makeBurger(true)`. It's incredibly unclear what the purpose of `true` is, here. Instead, we can break this up into two separate functions:
 
 ```java
     public void makeCheeseBurger() {
@@ -503,7 +503,7 @@ public class GPACalculator() {
 
 ```
 
-In the above case, any `Client` class that calls calculateGPA is passing unnecessary information, like a students name, email, and credits. This is problematic because this means that the `GPACalculator` class is now coupled to and dependent on the interfaces of both `Student` and `StudentRecord`, in addition to its necessary Dependency on the class `Grade`. This means now if any of the three classes change, this change will propagate to GPACalculator. On the other hande, if instead, `calculateGPA` only accepted a `List<Grade>`, now it is a much more stable interface, as only changes to the interface of `Grade` and `List` could affect it.
+In the above case, any `Client` class that calls calculateGPA is passing unnecessary information, like a students name, email, and credits. This is problematic because this means that the `GPACalculator` class is now coupled to and dependent on the interfaces of both `Student` and `StudentRecord`, in addition to its necessary Dependency on the class `Grade`. This means now if any of the three classes change, this change will propagate to GPACalculator. On the other hand, if instead, `calculateGPA` only accepted a `List<Grade>`, now it is a much more stable interface, as only changes to the interface of `Grade` and `List` could affect it.
 
 ### Data Coupling
 
@@ -592,7 +592,7 @@ Now what does the usage look like?
 
 In this case, we have turned **temporal coupling** into **data coupling**, as it is no longer possible to get the function calls out of order. You have to call the constructor first anyways to instantiate the object. But after that, the object cannot be in an incorrect state. If you want to call this function again, simply create a new `GuessResult` object. A note that there is a trade-off here, as instantiating a new object, as opposed to reusing an older one, comes with a memory and time cost. However, from a maintainability perspective, the second approach is more maintainable.
 
-**How does code like the first example happen?** It happens due to an overadherence to simple-sounding principles. This particular example emerged because of trying to follow principles in __Clean Code__. Specifically, from Chapter 3 where Bob Martin argues that Monadic functions (functions with one argument) are generally better than Dyadic functions (functions with two arguments). If you take that idea out of context and try to force one-argument functions, that's how you end up with setups like:
+**How does code like the first example happen?** It happens due to an over-adherence to simple-sounding principles. This particular example emerged because of trying to follow principles in __Clean Code__. Specifically, from Chapter 3 where Bob Martin argues that Monadic functions (functions with one argument) are generally better than Dyadic functions (functions with two arguments). If you take that idea out of context and try to force one-argument functions, that's how you end up with setups like:
 
 ```java
     GuessResult gr = new GuessResult();
