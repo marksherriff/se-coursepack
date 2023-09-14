@@ -29,4 +29,4 @@ But even if we take the safety critical aspect out of the equation, there are ot
 
 # Rational Unified Process
 
-The [Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process) is a stereotypical plan-driven model.  This model utilizes dedicated teams for each phase of the software development process and incorporates interation within each phase, bringing in different teams as needed.  This allows a larger-scale company to rotate teams over to other projects as needed.
+The [Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process) is a stereotypical plan-driven model.  This model utilizes dedicated teams for each phase of the software development process and incorporates interaction within each phase, bringing in different teams as needed.  This allows a larger-scale company to rotate teams over to other projects as needed.

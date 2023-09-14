@@ -43,7 +43,7 @@ A software development process (or methodology if we are talking about a specifi
 A number of factors can have an impact on what type of software methodology you choose.  For example:
 
 * Is the team co-located or is it global?  If it's global, you will probably need to have more documentation of the requirements and design that everyone can reference.  If it's co-located, then there can be more informal discussions.
-* Is the primary client "available" to the devleopers?  If they are, then the developers can just ask the client for clarification on a requirement whenever it is needed.  But if the client is a very large group of users (e.g. users of Microsoft Windows), then there needs to be some proxy for what the users might want.
+* Is the primary client "available" to the developers?  If they are, then the developers can just ask the client for clarification on a requirement whenever it is needed.  But if the client is a very large group of users (e.g. users of Microsoft Windows), then there needs to be some proxy for what the users might want.
 * What is the culture of the office like?  A more laid back environment tends to lend itself more toward informal conversations, designs on whiteboards, etc.  A more formal environment typically means more documentation and rigid steps to approve software changes.
 * Are there any regulatory issues?  If you are building software for an airliner, then you will need FAA approval, and that _always_ means more detailed documentation, designs, and testing specifications.  If you are building "Grandma Rachel's Recipe Keeper"... well, let's hope Grandma Rachel is a bit more understanding about documentation needs.
 
