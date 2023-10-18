@@ -5,7 +5,8 @@ title: Usability
 # Usability
 
 __Slide Deck__   
-[Usability](https://docs.google.com/presentation/d/1_C7u5jZTBx2ACUjsFcdUS58v1MMizqvj5bCWy97woQ4/edit?usp=sharing)
+- [Usability (McBurney's Deck)](https://docs.google.com/presentation/d/1_C7u5jZTBx2ACUjsFcdUS58v1MMizqvj5bCWy97woQ4/edit?usp=sharing)
+- [Software Usability (Sherriff's Deck)](https://docs.google.com/presentation/d/1l97BrV6s6Dsjvva4duZU2jmu5aYQsaawWeKnq3gDhP4/edit?usp=sharing)
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/oRQLFMPlqfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
