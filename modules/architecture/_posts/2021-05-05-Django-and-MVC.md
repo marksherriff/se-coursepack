@@ -5,7 +5,7 @@ title: Django and MVC
 __Slide Deck__   
 [Django and MVC](https://docs.google.com/presentation/d/1_gaSPHCczdsxXwmkhkYiWqZchTxHTzs-r6yyAR5Lznw/edit?usp=sharing)
 
-[Django and Heroku - New Deck for S24](https://docs.google.com/presentation/d/1uWUejsEqPrkAB76C6H6I0-tnFPafkWTnWovfqPa9V-Q/edit?usp=sharing)
+[Django and Heroku - Spring 2024 Update](https://docs.google.com/presentation/d/1uWUejsEqPrkAB76C6H6I0-tnFPafkWTnWovfqPa9V-Q/edit?usp=sharing)
 
 # Web applications vs. Desktop Applications
 
