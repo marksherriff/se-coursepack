@@ -16,4 +16,4 @@ __Previous Semesters' Homepages:__
 * [Spring 2023](https://s23.cs3240.org)
 * [Fall 2022](https://f22.cs3240.org)
 
-_NOTE: Previous semesters were hosted on a server that has been retired.  We will move these sites over when time allows.  Please email with any questions regarding previous semesters._
+_NOTE: Please email with any questions regarding previous semesters as the server hosting them has been changed._

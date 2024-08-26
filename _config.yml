@@ -34,3 +34,12 @@ jumbotron_color: "#56b2d9"
 jumbotron_image: ""
 jumbotron_mask: "img/jumbotron-mask.svg"
 jumbotron_icon: "img/cs3240-logo-200.png"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+  note:
+    title: note
+    color: purple
