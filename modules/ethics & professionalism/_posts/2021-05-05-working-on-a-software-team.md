@@ -4,7 +4,7 @@ title: Working on a Software Team
 
 # Working on a Software Team
 
-> __Slide Deck:__[Working on a Software Team](https://docs.google.com/presentation/d/1EdJfVTeU6jIvB90deU-b1adM-HJs-fwhaObR7gJPy_U/edit?usp=sharing)
+> __Slide Deck:__ [Working on a Software Team](https://docs.google.com/presentation/d/1EdJfVTeU6jIvB90deU-b1adM-HJs-fwhaObR7gJPy_U/edit?usp=sharing)
 
 The biggest misconception most people have about software developers is that it's a lonely job, where you sit in a cubicle all day, never talking to anyone, just focused on the dark image of the coding environment on the screen.  In reality, an exceptionally large part of a software engineer's job is communicating with other people in various different ways.  
 
