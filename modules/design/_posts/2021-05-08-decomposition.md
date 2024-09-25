@@ -4,12 +4,11 @@ title: Decomposition
 
 # Design Decomposition
 
-__Slide Deck__     
-[Design Decomposition](https://docs.google.com/presentation/d/1lctQhB-zKCbCSjNsSdN3aGvV2tsXfqJibiETjmuucXs/edit?usp=sharing)
-
 <iframe width="800" height="450" src="https://www.youtube.com/embed/cv-aOsqaTeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/CEJO1Ig8JaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> __Slide Deck:__ [Design Decomposition](https://docs.google.com/presentation/d/1lctQhB-zKCbCSjNsSdN3aGvV2tsXfqJibiETjmuucXs/edit?usp=sharing)
 
 In this lecture, we will focus on decomposing our system into individual classes and functions.
 

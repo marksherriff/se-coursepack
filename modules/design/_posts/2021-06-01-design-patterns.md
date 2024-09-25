@@ -4,10 +4,8 @@ title: Design Patterns
 
 # Design Patterns
 
-__Slide Deck__   
-[Design Patterns](https://docs.google.com/presentation/d/1_cHsVxdNC7b-65PqrntrtzgSnRl4ff7HLKFqzc6RfDQ/edit?usp=sharing)
-
-[Design Patterns Catalog](https://refactoring.guru/design-patterns/catalog)
+> __Slide Deck:__ [Design Patterns](https://docs.google.com/presentation/d/1_cHsVxdNC7b-65PqrntrtzgSnRl4ff7HLKFqzc6RfDQ/edit?usp=sharing)      
+> __More Info:__ [Design Patterns Catalog](https://refactoring.guru/design-patterns/catalog)
 
 Design Patterns are proven solutions to design problems. Unlike frameworks, however, design patterns do not come with working code. Instead, they are abstract ideas and structures that can be mimicked.
 
