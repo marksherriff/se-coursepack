@@ -4,14 +4,11 @@ title: Web Services
 
 # Web Services
 
-__Slide Deck__   
-[MVC and REST](https://docs.google.com/presentation/d/1OqDykKXiGcjPC-HCtXzUIv3EvY7eFml0qrE07nPueSM/edit?usp=sharing)
-
-[MVC and REST - Spring 2024 Update](https://docs.google.com/presentation/d/1UATEbAs1E98E6U8f6RayEftA8DU2VA7V747yl5nmOt0/edit?usp=sharing)
-
-
 <iframe width="800" height="450" src="https://www.youtube.com/embed/hgVHwkLVCLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+> __Slide Decks:__ 
+> - [MVC and REST - Deck from Video](https://docs.google.com/presentation/d/1OqDykKXiGcjPC-HCtXzUIv3EvY7eFml0qrE07nPueSM/edit?usp=sharing)
+> - [MVC and REST - Updated Spring 2024](https://docs.google.com/presentation/d/1UATEbAs1E98E6U8f6RayEftA8DU2VA7V747yl5nmOt0/edit?usp=sharing)
 
 Now that we know how individual web applications are built and we know the architectural design patterns used to build those apps… what can we do with them?
 

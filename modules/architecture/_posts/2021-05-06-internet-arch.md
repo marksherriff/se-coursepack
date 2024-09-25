@@ -4,13 +4,11 @@ title: Architectures of the Internet
 
 # Architectures of the Internet
 
-__Slide Deck__   
-[MVC and REST](https://docs.google.com/presentation/d/1OqDykKXiGcjPC-HCtXzUIv3EvY7eFml0qrE07nPueSM/edit?usp=sharing)
-
-[MVC and REST - Spring 2024 Update](https://docs.google.com/presentation/d/1UATEbAs1E98E6U8f6RayEftA8DU2VA7V747yl5nmOt0/edit?usp=sharing)
-
-
 <iframe width="800" height="450" src="https://www.youtube.com/embed/OA1ExSbHYGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> __Slide Decks:__ 
+> - [MVC and REST - Deck from Video](https://docs.google.com/presentation/d/1OqDykKXiGcjPC-HCtXzUIv3EvY7eFml0qrE07nPueSM/edit?usp=sharing)
+> - [MVC and REST - Updated Spring 2024](https://docs.google.com/presentation/d/1UATEbAs1E98E6U8f6RayEftA8DU2VA7V747yl5nmOt0/edit?usp=sharing)
 
 We are using an MVC framework (Django) for our projects. But what does that actually mean?
 

@@ -4,10 +4,9 @@ title: Architecture Introduction
 
 # Architecture Introduction
 
-__Slide Deck__   
-[Architecture Introduction](https://docs.google.com/presentation/d/1lIlIkh2t8wNotMOT0m863CKaY1omdGbz8mn0k_9Zqe8/edit?usp=sharing)
-
 <iframe width="800" height="450" src="https://www.youtube.com/embed/2cXgwQA4wVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> __Slide Deck:__ [Architecture Introduction](https://docs.google.com/presentation/d/1lIlIkh2t8wNotMOT0m863CKaY1omdGbz8mn0k_9Zqe8/edit?usp=sharing)
 
 How should you broadly design your system so that you can add to your software overtime easily?
 
