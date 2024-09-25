@@ -4,6 +4,8 @@ title: Django and MVC
 
 # Web applications vs. Desktop Applications
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/HxN4vSr7iwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > __Slide Decks:__ 
 > - [Django and MVC](https://docs.google.com/presentation/d/1_gaSPHCczdsxXwmkhkYiWqZchTxHTzs-r6yyAR5Lznw/edit?usp=sharing)     
 > - [Django and Heroku - Updated Spring 2024](https://docs.google.com/presentation/d/1uWUejsEqPrkAB76C6H6I0-tnFPafkWTnWovfqPa9V-Q/edit?usp=sharing)
