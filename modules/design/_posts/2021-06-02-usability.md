@@ -12,4 +12,4 @@ title: Usability
 
 Usability is an important part of the design process. So far, we have focused on internal design, such as ensuring the system is maintainable, changeable, and testable. However, none of that matters if the customer doesn't want to or cannot figure out how to use our product.
 
-In this lecture, we talk about the consequences of a bad interface (Therac-25), how the design of everyday objects can inform our thoughts on design, and some common hueristics to keep in mind while designing your system.
+In this lecture, we talk about the consequences of a bad interface, how the design of everyday objects can inform our thoughts on design, and some common hueristics to keep in mind while designing your system.
